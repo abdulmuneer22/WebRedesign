@@ -1,6 +1,7 @@
 import React , {Component} from 'react'
 
 import Button from './Button'
+import Toggle from '../Toggle'
 
 class ButtonDropDown extends Component{
     render(){
@@ -12,7 +13,7 @@ class ButtonDropDown extends Component{
 
                 <div className="col-md-6 col-sm-6">
                 <div style={{float : 'right'}}>
-                Toggle
+                <Toggle />
                 </div>
                 </div>
                 

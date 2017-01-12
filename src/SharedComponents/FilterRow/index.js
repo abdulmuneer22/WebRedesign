@@ -4,6 +4,9 @@ import styles from '../Styles/styles.css'
 import DropDown from './DropDown'
 import Pagination from './Pagination'
 
+
+import CheckBox from '../CheckBox'
+
 class FilterRow extends Component{
     
     render(){
@@ -25,6 +28,9 @@ class FilterRow extends Component{
                 <Pagination/>
                 </div>
                 
+                <div>
+                <CheckBox/>
+                </div>
             </div>
         );
     }

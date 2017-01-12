@@ -45,6 +45,7 @@ class DataTable extends Component{
             label: 'Column 4'
           }
         }
+        
       ],
       rows: [
         {
@@ -55,7 +56,8 @@ class DataTable extends Component{
             name : 'Jennifer Pinsker',
             assignee : 'John Boo',
             task : 'Profile Updated',
-            time : '15 Sep, 8:56 AM'
+            time : '15 Sep, 8:56 AM',
+
           },
           age: 10
         },
