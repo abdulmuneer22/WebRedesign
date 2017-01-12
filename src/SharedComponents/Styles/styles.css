@@ -1,0 +1,53 @@
+.navBar {
+    width : 100% !important;
+    /*max-width: 1024px;*/
+    height : 60px;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    display: flex;
+}
+
+.brandName {
+    font-size: 28px;
+    text-align: center;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 8px;
+}
+
+.logOutNavBar {
+    color: white;
+    font-size: 18;
+    font-family: 'Ubuntu', sans-serif;
+    letter-spacing: 1.5px;
+    float: right;
+    margin-right: 10px
+    
+}
+
+
+.filterRowLeftItem {
+    float: left;
+    font-size: 25px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center
+}
+
+.normalText {
+    color: black;
+    font-size: 14px;
+    padding: 10px
+}
+.filterRowRightItem{
+    float: right
+}
+
+
+.paginationWrapper {
+    float : right;
+    margin-right: 20px;
+    
+}
